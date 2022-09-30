@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  background-color: #19213a;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.temporizador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.temporizador .temporizador__title h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #fff;
+  color: #fff;
+}
+.temporizador .temporizador__input input {
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  -webkit-box-shadow: 0 0 10px rgba(133, 255, 20, 0.5019607843);
+          box-shadow: 0 0 10px rgba(133, 255, 20, 0.5019607843);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.temporizador .temporizador__input input:focus {
+  outline: none;
+}
+.temporizador .temporizador__button button {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #000;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5019607843);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5019607843);
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.temporizador .temporizador__button button:hover {
+  background: #fff;
+  color: #000;
+  border: none;
+  -webkit-box-shadow: 0 0 10px #fff;
+          box-shadow: 0 0 10px #fff;
+}
+.temporizador .temporizador__countdown h1 {
+  font-size: 15rem;
+  color: #8d1a7e;
+  text-shadow: 0 0 10px rgba(129, 12, 114, 0.9176470588);
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */

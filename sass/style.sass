@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700;900&display=swap')
+
+
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+body
+    font-family: 'Source Code Pro', monospace
+    background-color: #19213a
+
+.container
+    max-width: 1200px
+    margin: 100px auto
+    padding: 0 20px
+
+.temporizador
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+    .temporizador__title
+        h1
+            font-size: 3rem
+            font-weight: 900
+            text-transform: uppercase
+            margin-bottom: 20px
+            text-shadow: 0 0 5px #fff
+            color: #fff
+
+    .temporizador__input
+        input
+            width: 300px
+            text-align: center
+            padding: 10px
+            border: none
+            box-shadow: 0 0 10px #85ff1480
+            border-radius: 5px
+            margin-bottom: 20px
+            &:focus
+                outline: none
+    .temporizador__button
+        button
+            padding: 10px 20px
+            border: 1px solid #000
+            border-radius: 5px
+            background: #000
+            box-shadow: 0 0 10px #00000080
+            color: #fff
+            font-weight: 900
+            text-transform: uppercase
+            margin-bottom: 20px
+            cursor: pointer
+            &:hover
+                background: #fff
+                color: #000
+                border: none
+                box-shadow: 0 0 10px #fff
+
+    .temporizador__countdown
+        h1
+            font-size: 15rem
+            color: #8d1a7e
+            text-shadow: 0 0 10px #810c72ea
+            font-weight: 900
+            text-transform: uppercase
+            margin-bottom: 20px
+// Path: sass\style.sass
